@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            #cont>div{
+                text-align: center;
+                width: 25px;
+                height: 25px;
+                display: inline-block;
+                border: 1px black solid;
+            }
+        </style>
+    </head>
+    <body onload="divalores();">
+        <div id="cont"></div>
+        
+        <hr>
+
+        <div onclick="pyuNumero();" id="pyu"> PRIMER Y ÚLTIMO NÚMERO </div>
+        <div id="resultado"></div>
+
+        <hr>
+        
+        <div onclick="numeroFinal();" id="nf"> AÑADIR NÚMERO FINAL </div>
+        
+        <hr>
+        
+        <div onclick="numeroInicio();" id="ni"> AÑADIR NÚMERO INICIO </div>
+        
+        <hr>
+        
+        <div onclick="borrarUltimoNumero();" id="bun"> BORRAR ÚLTIMO NÚMERO </div>
+        
+        <hr>
+        
+        <div onclick="borrarPrimerNumero();" id="bpn"> BORRAR PRIMER NÚMERO </div>
+        
+        <hr>
+                
+        <div onclick="calcular();" id="bc"> CALCULAR </div>
+        <div id="resCalc"></div>
+        
+        <hr>
+        
+        <div onclick="borrarPosConc();" id="bpc"> BORRAR POSICIÓN CONCRETA </div>
+        
+        <hr>
+        
+        <div onclick="borrarNumConc();" id="bnc"> BORRAR NÚMERO CONCRETO </div>
+        
+        <hr>
+        
+        
+        
+        <script src="arrays.js" type="text/javascript"></script>
+    </body>
+</html>
